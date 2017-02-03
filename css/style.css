@@ -1,0 +1,318 @@
+/******************************************/
+/*         BUTTON STYLE (RUND)            */
+/******************************************/
+
+/*Definieren der Button-Eigenschaften*/
+/*.button {
+    width: 80px;
+    background-color: #3F3F3F; /*Deine Wunschfarbe des Buttons
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-width: 0px;
+    cursor: pointer;
+    transition: all 100ms ease;
+    -moz-transition: all 100ms ease;
+    -webkit-transition: all 100ms ease;
+    -o-transition: all 100ms ease;
+    color: #ffffff;
+}*/
+
+/*Definieren des Hover Zustandes
+.button:hover {
+    background-color: #A8D1B1;
+}*/
+
+.round-button {
+    display:block;
+    width: 75px;
+    height: 75px;
+    /*line-height:1px;*/
+    border: 3px /*solid #f5f5f5*/;		/*Rand + Farbe*/
+    border-radius: 50%;
+    color: #606060;                     /* Text-Farbe */
+    text-align:center;
+    text-decoration:none;
+    background: #89CC98;                /* Button-Farbe */
+    /*background: #57c9ad;*/
+    /*box-shadow: 0 0 100px grey;*/
+    /*font-size:20px;
+    font-weight:bold;*/
+}
+
+/*Definieren des Hover Zustandes*/
+.round-button:hover {
+    background-color: #A8D1B1;
+}
+
+/*.round-button:active {
+    background-color: #A8D1B1; 
+    -moz-transform: scale(.98);
+    -webkit-transform: scale(.98);
+    -o-transform: scale(.98);
+    transform: scale(.98);
+}*/
+
+.div-buttons{
+    position:relative;
+    top: -1002px;
+    left: -189px;
+}
+
+
+
+
+
+#div-buttongroup1{
+    position: relative;
+
+    /* Abstand zur vorherigen (Eltern) Box --> dir zur img*/
+    top: 88px;          /* Abstand zur vorherigen (Eltern) Box*/
+    left: 0px;
+
+	/*border: 1px solid #73AD21;*/
+    width: 500px;	
+	height: 80px;   
+}
+
+#button_azK{
+    position: absolute;
+	margin-left: 25px;
+    text-decoration:none;
+    font-family:'Arial'; 
+    font-size: 1.0em; 
+    font-weight: bold;
+}
+
+#button_09{
+    position:absolute;
+    right: 25px; 
+    top: -2px;
+    font-family:'Arial'; 
+    font-size: 1.0em; 
+    font-weight: bold;
+    /*outline: none;
+    border-color: #9ecaed;
+    box-shadow: 0 0 10px #9ecaed;*/
+}
+
+#textfeld1{
+    position: absolute;
+    width: 140px;
+    background: #ffffff;
+    border: 0px;
+    height: 33px;
+    left: 180px;
+    top: 20px;
+
+}
+
+.glowing-border {
+    border: 2px solid #dadada;
+    border-radius: 7px;
+}
+
+.glowing-border:focus { 
+    outline: none;
+    border-color: #9ecaed;
+    box-shadow: 0 0 10px #9ecaed;
+}
+
+
+
+
+
+
+#div-buttongroup2{
+	position: relative;	
+    top: 91px;          /* Abstand zur vorherigen (Eltern) Box*/
+    left: 0px;
+    width: 500px;	
+	height: 80px;   
+}
+
+#button_azG{
+    position: absolute;
+    left: -7px;
+    font-family:'Arial'; 
+    font-size: 1.0em; 
+    font-weight: bold;
+}
+
+#button_sonder{
+    position: absolute;
+    right: -7px;
+    font-family:'Arial'; 
+    font-size: 1.0em; 
+    font-weight: bold;
+}
+
+#textfeld2{
+    position: absolute;
+    width: 200px;
+    background: #ffffff;
+    border: 10px;
+    height: 20px;
+    left: 150px;
+    top: -10px;
+}
+
+#ausgabe_feld{
+    position: absolute;
+    width: 200px;
+    height: 100px;
+    background: #9f9f9f;
+    border: 10px;
+    border-width: 3px;
+    border-style: solid;
+    border-color: #434343;
+    left: 150px;
+    top: -10px;
+}
+
+
+
+
+#div-buttongroup3{
+	position: relative;	
+    top: 104px;          /* Abstand zur vorherigen (Eltern) Box*/
+    left: 0px;
+    width: 500px;	
+	height: 80px;   
+}
+
+#button_Space{
+    position: absolute;
+    left: -5px;
+    top:1px;
+    font-family:'Arial'; 
+    font-size: 1.0em; 
+    font-weight: bold;
+}
+
+#button_Anagr{
+    position: absolute;
+    right: -5px;
+    font-family:'Arial'; 
+    font-size: 1.0em; 
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+#div-buttongroup4{
+    position: relative;
+    /* Abstand zur vorherigen (Eltern) Box --> dir zur img*/
+    top: 110px;          /* Abstand zur vorherigen (Eltern) Box*/
+    left: 0px;
+    width: 500px;	
+	height: 80px;   
+}
+
+#button_Words{
+    position: absolute;
+    left: 30px;
+    top: 2px;
+}
+
+#button_Leet{
+    position: absolute;
+    right: 30px; 
+    top: 2px;
+}
+
+
+
+/******************************************/
+/*         BUTTON STYLE (ELIPSE)          */
+/******************************************/
+#div-buttongroup5{
+    position: relative;
+    /* Abstand zur vorherigen (Eltern) Box --> dir zur img*/
+    top: 94px;          /* Abstand zur vorherigen (Eltern) Box*/
+    left: 0px;
+    margin-top: 0px;
+    margin-left: 0px;
+    width: 490px;	
+	height: 80px;   
+}
+
+.round-button-elip {
+    display:block;
+    width: 135px;
+    height: 48px;
+    /*line-height:1px;*/
+    border: 3px /*solid #f5f5f5*/;		/*Rand + Farbe*/
+    border-radius: 15px;
+    color: #606060;
+    text-align:center;
+    text-decoration:none;
+    background: #89CC98;
+    /*background: #57c9ad;*/
+    /*font-size:20px;
+    font-weight:bold;*/
+}
+
+/*Definieren des Hover Zustandes*/
+.round-button-elip:hover {
+    background-color: #A8D1B1;
+}
+
+#button_gen{
+    position: absolute;
+    top: 40px;
+    left: 180px;
+}
+
+/******************************************/
+/*            Hintergrund                 */
+/******************************************/
+#background_main{
+    position: relative;
+    background-color: #5D6E81;
+   /* background-image:url('css/Hintergrund1.png') no-repeat;*/
+	margin-left: 50%;
+	display: block;
+}
+
+.img_hintergrund:before {
+  content: " ";
+  position: absolute;
+  z-index: -1;
+  top: -40px;
+  left: -40px;
+  right: 5px;
+  bottom: 5px;
+  width: 560px;
+  height: 560px;
+  border: 10px solid #606060;
+  border-radius: 290px;
+}
+.img_hintergrund{
+    /*background-color: #ffffff;
+    background-image:url('Hintergrund2.png');
+	display: block;
+	margin-top: 150px;
+    margin-left:-250px;
+	width: 488px;
+	height: 488px;*/
+    margin-top: 150px;
+    margin-left:-250px;
+    background-color: #606060;
+    position: relative;
+    width: 500px;
+    height: 500px;
+    border: 30px solid #8fd899;
+    text-align: center;
+    border-radius: 290px;
+}
+
+
+
+input:in-range{
+
+    background-color: rgba(0, 255, 0, 0.25);
+}
